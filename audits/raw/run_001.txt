@@ -1,0 +1,14 @@
+Produce a 5-point research brief on “AI agent tool reliability risks”.
+
+Constraints:
+- Use only supported claims.
+- If a claim cannot be verified, mark it as UNKNOWN.
+- Do not include recommendations.
+- Do not exceed 5 bullet points.
+
+Output format:
+1.
+2.
+3.
+4.
+5.
