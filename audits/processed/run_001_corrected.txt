@@ -1,0 +1,9 @@
+1. UNKNOWN — A claim that GPT-4-based agents achieved a 10.59% success rate on WebArena tasks cannot be verified within the provided context.
+
+2. UNKNOWN — Claims regarding ToolSandbox results, including hallucinated tool usage and parallel execution errors, are not accompanied by verifiable sources.
+
+3. INFERENCE — Prompt injection is widely described as a risk in AI systems where external inputs may influence behavior; however, no specific verifiable citation is provided here, so this remains an inference.
+
+4. UNKNOWN — Reported vulnerability rates (e.g., 24% or 47%) from InjecAgent evaluations cannot be verified without source attribution.
+
+5. INFERENCE — It is reasonable to infer that reliability and security risks may compound in agent systems, but the specific statistics and quoted statements are not verifiable in the provided output.
