@@ -1,3 +1,10 @@
+---
+day: 02
+constraint_class: format
+result: weak_pass
+drift_detected: true
+---
+
 # Day 02 — Format Precision Test
 
 ## Prompt
