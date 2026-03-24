@@ -1,10 +1,7 @@
-#!/data/data/com.termux/files/usr/bin/bash
-
-# deterministic checksum generation
-
 find . -type f \
   ! -path "./.git/*" \
-  ! -path "./CHECKSUMS.sha256" \
+  ! -name "*CHECKSUMS.sha256" \
+  | sed 's|^\./||' \
   | sort \
   | while read -r file; do
     sha256sum "$file"
