@@ -14,7 +14,14 @@ jobs:
         run: |
           find audits -type f ! -name "sha256_manifest.txt" -exec sha256sum {} \; > audits/checksums/sha256_manifest_new.txt
 
-      - name: Compare with baseline
+- name: Debug checksum input
+  run: |
+    echo "=== FILES HASHED IN CI ==="
+    find . -type f | sort
+
+    echo "=== GENERATED MANIFEST ==="
+    cat audits/checksums/sha256_manifest_new.txt | head -50     
+ - name: Compare with baseline
         run: |
           if ! diff -q audits/checksums/sha256_manifest.txt audits/checksums/sha256_manifest_new.txt; then
             echo "❌ Drift detected — blocking release"
