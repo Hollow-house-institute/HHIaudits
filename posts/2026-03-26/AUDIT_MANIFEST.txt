@@ -1,0 +1,17 @@
+HHI AUDIT LOCK MANIFEST
+
+Date: 2026-03-26
+Cluster: CORE_GOVERNANCE
+Terms:
+- Behavioral AI Governance
+- Execution-Time Governance
+- Human-in-the-loop authority
+
+Files:
+- CORE_GOVERNANCE_DEV.md
+- CORE_GOVERNANCE_LINKEDIN.md
+
+Checksum File:
+- CHECKSUMS.sha256
+
+Status: LOCKED
