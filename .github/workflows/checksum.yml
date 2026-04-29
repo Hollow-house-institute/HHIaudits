@@ -10,33 +10,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Find and verify all checksum files
+      - name: Validate root checksum
         run: |
           set -e
-
-          echo "Searching for checksum files..."
-
-          FILES=$(sha256sum -c CHECKSUMS.sha256
-
-          if [ -z "$FILES" ]; then
-            echo "No checksum files found"
-            exit 0
-          fi
-
-          for file in $FILES; do
-            echo "----------------------------------"
-            echo "Validating: $file"
-
-            DIR=$(dirname "$file")
-            cd "$DIR"
-
-            sha256sum -c $(basename "$file")
-
-            cd - > /dev/null
-          done
-
-          echo "----------------------------------"
-          echo "All checksum files validated"
+          sha256sum -c CHECKSUMS.sha256
+          echo "All checksums valid"
