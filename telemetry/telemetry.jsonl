@@ -1,0 +1,123 @@
+{"event":"git_commit","actor":"amypbui","hash":"f898ef8","message":"pipeline 2026-05-03","timestamp":"2026-05-03T13:34:18-05:00"}
+{"event":"git_commit","actor":"amypbui","hash":"0aa8a77","message":"trigger: final clean CI","timestamp":"2026-04-29T09:49:37-05:00"}
+{"event":"git_commit","actor":"amypbui","hash":"13fe38f","message":"Fix checksum workflow: use single root CHECKSUMS.sha256","timestamp":"2026-04-29T09:49:20-05:00"}
+{"event":"git_commit","actor":"amypbui","hash":"822ff57","message":"trigger: clean CI run","timestamp":"2026-04-29T09:47:34-05:00"}
+{"event":"git_commit","actor":"amypbui","hash":"3f0ae72","message":"Fix workflows: unify checksum validation to root CHECKSUMS.sha256","timestamp":"2026-04-29T09:44:19-05:00"}
+{"event":"git_commit","actor":"amypbui","hash":"7dda3e3","message":"Reset checksum system: remove invalid paths and rebuild integrity","timestamp":"2026-04-29T09:37:17-05:00"}
+{"event":"git_commit","actor":"amypbui","hash":"72b3d90","message":"Update checksums after script stabilization","timestamp":"2026-04-29T09:27:42-05:00"}
+{"event":"git_commit","actor":"amypbui","hash":"16ee7c8","message":"Update checksums after script modification","timestamp":"2026-04-29T09:21:33-05:00"}
+{"event":"git_commit","actor":"amypbui","hash":"4e88c95","message":"Fix checksum mismatch: remove or restore generate_checksums.sh","timestamp":"2026-04-29T09:19:57-05:00"}
+{"event":"git_commit","actor":"Amy Bui","hash":"332f08d","message":"Update checksum.yml","timestamp":"2026-04-29T09:17:36-05:00"}
+{"event":"git_commit","actor":"amypbui","hash":"e80319b","message":"checkpoint: telemetry → evidence (auto)","timestamp":"2026-04-29T09:13:27-05:00"}
+{"event":"git_commit","actor":"amypbui","hash":"1bc0df5","message":"checkpoint: telemetry → evidence (auto)","timestamp":"2026-04-29T09:13:09-05:00"}
+{"event":"git_commit","actor":"amypbui","hash":"89bc1b9","message":"enforce: exclude *.jsonl + checkpoint telemetry → evidence","timestamp":"2026-04-29T09:11:46-05:00"}
+{"event":"git_commit","actor":"amypbui","hash":"941a524","message":"fix: structural checksum boundary (exclude telemetry.jsonl)","timestamp":"2026-04-29T09:08:29-05:00"}
+{"event":"git_commit","actor":"amypbui","hash":"e5f662f","message":"Add HHI-CASE-REL-001 behavioral governance case study","timestamp":"2026-04-29T08:18:43-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"b4ae326","message":"update checksums: reconcile drift","timestamp":"2026-04-28T07:34:32-05:00"}
+{"event":"git_commit","actor":"amypbui","hash":"10f19bc","message":"sync: authority + audit + enforcement layer","timestamp":"2026-04-19T10:10:33-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"d356c16","message":"fix: stabilize workflows + checksum","timestamp":"2026-04-14T12:18:46-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"8ed8b8f","message":"global fix: remove heredoc + make enforcement non-blocking","timestamp":"2026-04-13T13:30:31-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"5fef241","message":"fix: stabilize workflows + checksum exclusions","timestamp":"2026-04-13T09:29:47-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"5c8badb","message":"Fix CI false-positive by excluding workflow from CC BY scan","timestamp":"2026-04-13T04:41:59-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"2fd7840","message":"Exclude runtime telemetry from checksum boundary and refresh manifest","timestamp":"2026-04-06T01:16:12-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"5264b8f","message":"enforcement: severity-based actions + stop authority binding","timestamp":"2026-04-02T17:59:33-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"354f2f0","message":"fix: timezone-aware UTC timestamps for audit compliance","timestamp":"2026-04-02T17:55:42-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"24259a4","message":"runtime evidence: 2026-04-02T22:54:47Z","timestamp":"2026-04-02T17:54:47-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"053a9b5","message":"v1.0.0-audit-lock: evidence layer activation + schema + checksum release","timestamp":"2026-04-02T17:52:50-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"094ca70","message":"Enable all governance workflows (remove disabled state)","timestamp":"2026-04-02T17:23:05-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"a2269da","message":"Inject Execution-Time Governance system (CI + telemetry + enforcement)","timestamp":"2026-04-02T17:22:13-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"ebe4a48","message":"Upgrade to production governance workflow","timestamp":"2026-03-31T18:31:18-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"1da7662","message":"Clean CI state","timestamp":"2026-03-31T18:29:08-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"4f0fe0e","message":"Disable conflicting workflows (telemetry stabilization)","timestamp":"2026-03-31T18:29:00-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"43d5e79","message":"Trigger minimal workflow","timestamp":"2026-03-31T18:27:41-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"8c5ddd6","message":"Install minimal working workflow (debug)","timestamp":"2026-03-31T18:27:32-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"db5da54","message":"Trigger clean workflow","timestamp":"2026-03-31T18:26:12-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"d4da407","message":"Rebuild workflow (v4 stable)","timestamp":"2026-03-31T18:26:02-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"af9b83c","message":"Trigger artifact fix","timestamp":"2026-03-31T18:24:39-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"81f7af6","message":"Force artifact generation (v4 fix)","timestamp":"2026-03-31T18:24:21-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"807f418","message":"Trigger telemetry-safe run","timestamp":"2026-03-31T18:22:54-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"534cd2d","message":"Allow artifact generation on failure (telemetry fix)","timestamp":"2026-03-31T18:22:40-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"11550b7","message":"Trigger governance run","timestamp":"2026-03-31T18:21:00-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"138af73","message":"Repair org governance alignment for v3 enforcement","timestamp":"2026-03-31T18:11:40-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"683037b","message":"Upgrade to governance-check v3 (audit-grade enforcement)","timestamp":"2026-03-31T18:08:26-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"4677aeb","message":"Upgrade to governance-check v2 (Authority + integrity enforcement)","timestamp":"2026-03-31T18:02:22-05:00"}
+{"event":"git_commit","actor":"Hollow House Institute","hash":"4b91c94","message":"Add governance-check workflow (Execution-Time enforcement)","timestamp":"2026-03-31T17:59:34-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"210e3dc","message":"log engagement 2026-03-26 (0/0)","timestamp":"2026-03-26T21:47:31-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"d027f4f","message":"fix false posting log 2026-03-26","timestamp":"2026-03-26T20:56:46-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"5fdb036","message":"engagement anomaly check 2026-03-26 (80/12)","timestamp":"2026-03-26T20:51:37-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"4186db7","message":"log engagement 2026-03-26 (42/6)","timestamp":"2026-03-26T20:49:34-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"81c53d9","message":"fix + log + push 2026-03-26","timestamp":"2026-03-26T20:47:48-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"02d9d30","message":"fix engagement log 2026-03-26","timestamp":"2026-03-26T20:44:28-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"5dc9671","message":"update post status 2026-03-26","timestamp":"2026-03-26T17:25:37-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"cb7ddc1","message":"audit index + distribution 2026-03-26","timestamp":"2026-03-26T17:19:53-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"c7da43f","message":"audit index + distribution 2026-03-26","timestamp":"2026-03-26T17:19:05-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"c875865","message":"audit lock 2026-03-26 (CORE_GOVERNANCE)","timestamp":"2026-03-26T17:16:10-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"3dd9208","message":"Fix YAML syntax and align release workflow with checksum script","timestamp":"2026-03-24T08:16:47-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"31336c8","message":"Update root checksum baseline after governance fixes","timestamp":"2026-03-24T08:05:20-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"d424494","message":"Fix checksum ordering determinism using xargs pipeline","timestamp":"2026-03-24T08:01:46-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"0dc55f4","message":"Rebuild checksum baseline to match canonical script","timestamp":"2026-03-24T07:56:03-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"dadb992","message":"Align audit-enforce workflow with canonical checksum script","timestamp":"2026-03-24T07:52:47-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"cf09ae5","message":"Ignore generated checksum artifacts","timestamp":"2026-03-24T07:47:10-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"462fff1","message":"Fix CI drift by excluding .github from checksum set","timestamp":"2026-03-24T07:40:32-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"4185f57","message":"Add checksum debug output","timestamp":"2026-03-23T22:19:18-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"190e681","message":"Fix checksum self-inclusion loop","timestamp":"2026-03-23T22:10:56-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"fade0b2","message":"Stabilize deterministic checksum generation","timestamp":"2026-03-23T22:06:38-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"ceafa39","message":"Normalize checksum script path and regenerate checksums","timestamp":"2026-03-23T22:03:35-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"d46767b","message":"Refresh checksums after Day 10","timestamp":"2026-03-23T21:57:42-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"12f46bf","message":"Refresh checksums after Day 09","timestamp":"2026-03-23T21:55:30-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"907150a","message":"Add Day 09 confidence calibration test (strong pass with verbosity drift)","timestamp":"2026-03-23T21:55:26-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"b9c5b81","message":"Refresh checksums after Day 08","timestamp":"2026-03-23T21:53:42-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"adc82d4","message":"Add Day 08 evidence requirement test (pass)","timestamp":"2026-03-23T21:53:35-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"82a5178","message":"Refresh checksums after Day 07","timestamp":"2026-03-23T21:51:27-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"942f0c4","message":"Add Day 07 classification test (weak pass, misclassification observed)","timestamp":"2026-03-23T21:51:22-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"993c65f","message":"Refresh checksums after Day 06","timestamp":"2026-03-23T21:34:45-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"3640c07","message":"Add Day 06 uncertainty labeling test (pass)","timestamp":"2026-03-23T21:34:37-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"7f85292","message":"Refresh checksums after Day 05","timestamp":"2026-03-23T21:32:50-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"e2644f6","message":"Add Day 05 authority control test (strong pass with structural drift)","timestamp":"2026-03-23T21:32:40-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"1c0cf70","message":"Add checksum lock + CI validation workflow","timestamp":"2026-03-23T17:25:09-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"81158d8","message":"Add governance artifacts + traceability map","timestamp":"2026-03-23T17:22:58-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"457f12e","message":"Add run_002 output (source discipline test)","timestamp":"2026-03-22T11:39:38-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"3dcaf82","message":"Add run_002 prompt (source discipline test)","timestamp":"2026-03-22T11:38:39-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"87730a1","message":"Add corrected audit output (run_001 governance-compliant)","timestamp":"2026-03-22T11:37:58-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"7a8003b","message":"Refresh checksums after Day 04 fix","timestamp":"2026-03-22T11:34:54-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"51fae26","message":"Fix Day 04 file content (printf issue resolved)","timestamp":"2026-03-22T11:34:46-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"3a54f5f","message":"Refresh checksums after Day 04","timestamp":"2026-03-22T11:33:57-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"a07a8a6","message":"Add Day 04 scope control test (perfect pass)","timestamp":"2026-03-22T11:33:49-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"a3a1f54","message":"Refresh checksums after Day 03","timestamp":"2026-03-22T11:31:50-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"cdf9b56","message":"Add Day 03 truthfulness test (do not guess behavior)","timestamp":"2026-03-22T11:30:59-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"e26e27a","message":"Add YAML metadata header to Day 01 audit file","timestamp":"2026-03-22T11:28:46-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"f8ffa25","message":"Add YAML metadata header to Day 02 audit file","timestamp":"2026-03-22T11:28:10-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"b9fbf37","message":"Add Day 01 terms metadata + Day 02 format precision test","timestamp":"2026-03-22T11:27:14-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"eaa3466","message":"Upgrade Grok audit package to governance-locked structure with manifest and checksum tooling","timestamp":"2026-03-22T10:45:54-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"d38042c","message":"Add enforcement CI (fail on checksum drift)","timestamp":"2026-03-22T06:09:51-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"f51f25a","message":"Stabilize checksum script and add baseline","timestamp":"2026-03-22T06:06:27-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"adea858","message":"HHI governance audit scaffold initialized","timestamp":"2026-03-22T06:04:05-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"171309b","message":"Add Grok HHI 30-day audit structure (Day 1 initialized)","timestamp":"2026-03-21T19:22:43-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"45eca05","message":"Add canonical governance enforcement block (terminology propagation)","timestamp":"2026-03-17T20:39:32-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"186e9f7","message":"Add evidence capture policy defining append-only evidence integrity rules","timestamp":"2026-03-15T20:36:56-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"0c8b816","message":"Add audit schema, failure taxonomy, case index, citation metadata, and methodology for structured governance audits","timestamp":"2026-03-15T20:31:55-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"a752e20","message":"Add audit schema, failure taxonomy, and governance case index for structured audit analysis","timestamp":"2026-03-15T20:29:44-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"540cfe1","message":"Add audit schema and citation metadata for governance research credibility","timestamp":"2026-03-15T20:28:10-05:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"2f0c8c5","message":"audit(portal): add HHI_Portal_v6 governance audit artifact","timestamp":"2026-02-12T11:10:17-06:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"1789497","message":"expand downstream reference: unstable mirrors chat artifact set","timestamp":"2026-02-12T07:46:16-06:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"84d8a1c","message":"add chat artifact: comparison note","timestamp":"2026-02-12T07:45:12-06:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"a47bc68","message":"add chat artifact: authority transfer trace","timestamp":"2026-02-12T07:44:41-06:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"8cb6204","message":"add chat artifact: runtime and feedback trace","timestamp":"2026-02-12T07:43:36-06:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"76c214b","message":"add downstream reference: unstable mirrors chat artifact","timestamp":"2026-02-12T07:42:03-06:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"e76654f","message":"add checksum: unstable mirrors chat artifact","timestamp":"2026-02-12T07:40:50-06:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"9b2fd4e","message":"add checksum: unstable mirrors chat artifact","timestamp":"2026-02-12T07:40:03-06:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"d63f2bf","message":"add chat artifact: unstable mirrors evidence","timestamp":"2026-02-12T07:31:21-06:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"8ea1904","message":"add chat artifact: unstable mirrors evidence","timestamp":"2026-02-12T07:26:41-06:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"624d7dd","message":"audit: add cleaned access drift audit artifacts (2026-02-11)","timestamp":"2026-02-11T19:19:01-06:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"6eb92f9","message":"Add SHA-256 checksums for governance-first interaction case study","timestamp":"2026-02-11T09:15:49-06:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"c37d385","message":"Add governance-first interaction case study and audit scope notice","timestamp":"2026-02-11T09:13:46-06:00"}
+{"event":"git_commit","actor":"hhidatasettechs","hash":"5baa1e6","message":"audit: capture chat transcript, implicit boundary test, and reference snapshots","timestamp":"2026-02-11T09:02:45-06:00"}
+{"event":"git_commit","actor":"Human Authority","hash":"1e35903","message":"Add audit evidence repository README","timestamp":"2026-02-08T21:03:31-06:00"}
+{"event":"git_commit","actor":"Human Authority","hash":"f2e8e2e","message":"Capture boundary test executions and evidence log","timestamp":"2026-02-08T20:57:36-06:00"}
+{"event":"git_commit","actor":"Human Authority","hash":"5a61fbf","message":"Capture builder boundary test execution (verbatim output)","timestamp":"2026-02-08T20:51:03-06:00"}
+{"event":"git_commit","actor":"Human Authority","hash":"be973b5","message":"Add advisor boundary test (advisory-only role enforcement)","timestamp":"2026-02-08T20:29:05-06:00"}
+{"event":"git_commit","actor":"Human Authority","hash":"ebee40d","message":"Add builder boundary test (role-constrained execution)","timestamp":"2026-02-08T20:28:35-06:00"}
+{"event":"git_commit","actor":"Human Authority","hash":"04e897f","message":"Add auditor boundary test (role enforcement)","timestamp":"2026-02-08T20:27:53-06:00"}
+{"event":"git_commit","actor":"Human Authority","hash":"f180b2b","message":"Capture bot prompts (declared authority)","timestamp":"2026-02-08T20:24:08-06:00"}
+{"event":"git_commit","actor":"Human Authority","hash":"de9bd29","message":"Establish audit repo structure (structure-only)","timestamp":"2026-02-08T20:18:21-06:00"}
+{"event":"git_commit","actor":"Human Authority","hash":"0942c00","message":"first commit","timestamp":"2026-02-08T16:50:15-06:00"}
