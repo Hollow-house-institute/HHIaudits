@@ -120,4 +120,4 @@
 {"event":"git_commit","actor":"Human Authority","hash":"04e897f","message":"Add auditor boundary test (role enforcement)","timestamp":"2026-02-08T20:27:53-06:00"}
 {"event":"git_commit","actor":"Human Authority","hash":"f180b2b","message":"Capture bot prompts (declared authority)","timestamp":"2026-02-08T20:24:08-06:00"}
 {"event":"git_commit","actor":"Human Authority","hash":"de9bd29","message":"Establish audit repo structure (structure-only)","timestamp":"2026-02-08T20:18:21-06:00"}
-{"event":"git_commit","actor":"Human Authority","hash":"0942c00","message":"first commit","timestamp":"2026-02-08T16:50:15-06:00"}
+{"event":"git_commit","actor":"Human Authority","hash":"0942c00","message":"first commit","timestamp":"2026-02-08T16:50:15-06:00"}{"event":"pipeline_commit","actor":"system","hash":"450a975","message":"backfill telemetry 2026-05-03","timestamp":"2026-05-03T13:38:27-05:00"}
