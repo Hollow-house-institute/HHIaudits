@@ -1,0 +1,2 @@
+Time turns behavior into infrastructure.
+Behavior is the most honest data there is.
